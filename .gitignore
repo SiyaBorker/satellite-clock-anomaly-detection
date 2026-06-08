@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+detector/ae_weights.npz
+
+detector/dataset/*.csv
+detector/dataset/*.json
+
+.vscode/
+.idea/
