@@ -1,0 +1,7 @@
+file,kind,rows,n_jumps,n_missing,role
+train_normal.csv,CLEAN,86400,0,0,training
+val_normal.csv,CLEAN,86400,0,0,validation
+test_jumps_only.csv,FAULTY,86400,6,0,test
+test_missing_only.csv,FAULTY,86246,0,154,test
+test_mixed_1.csv,FAULTY,86301,5,99,test
+test_mixed_2.csv,FAULTY,86327,4,73,test
